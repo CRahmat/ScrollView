@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".JdIdHistory">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:src="@drawable/jdid_logo"
+        android:scaleType="fitCenter"
+        android:padding="20dp"
+        android:background="@drawable/custom_button"
+        >
+
+    </ImageView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="130dp"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <EditText
+                android:id="@+id/headerOfHistory"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="SEJARAH JD.ID"
+                android:fontFamily="@font/agencyfb"
+                android:textAlignment="center"
+                android:background="#FFFFFF"
+                android:textStyle="bold"
+                android:paddingTop="10dp"
+                android:textSize="12pt"
+                >
+            </EditText>
+            <TextView
+                android:id="@+id/bodyOfHistory"
+                android:layout_below="@+id/headerOfHistory"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="20dp"
+                android:background="@drawable/custom_button"
+                android:text="JD.com, Inc. (Hanzi: 京东; Pinyin: Jīngdōng), juga dikenal dengan nama Jingdong dan sebelumnya bernama 360buy,[5] adalah perusahaan perdagangan elektronik Tiongkok yang berpusat di Beijing. JD adalah satu dari dua peritel daring B2C terbesar di Tiongkok (menurut volume transaksi dan pendapatan), anggota Fortune Global 500, dan pesaing utama Tmall milik Alibaba.[6][7] Pada kuartal pertama 2018, platform ini memiliki 301,8 juta pengguna aktif.[8]
+
+\n\nPerusahaan ini didirikan oleh Liu Qiangdong (dikenal sebagai Richard Liu) pada Juli 1998 sebagai toko fisik yang menjual produk optik magnet di Beijing, China, dengan nama Jingdong Century Trafing Co, Ltd. Ritelnya lalu berkembang dan menjual barang elektronik, telepon seluler, komputer, dan barang serupa. Situs daring B2C perusahaan tersebut aktif di Januari 2004 dengan nama domain jdlaser.com lalu 360buy.com di 2007. Akhirnya nama domain diubah lagi menjadi JD.com di Maret 2013.[9] Pembelian domain JD.com memakan biaya $5.000.000.[10] Pada saat yang sama, JD.com mengumumkan logo dan maskot barunya. Tencent yang memegang 20% saham perusahaan ini.[11]
+
+\n\nJD.com mengoperasikan pengantaran barang menggunakan kendaraan nirawak, mobil otonom, dan robot serta memiliki sistem pengantaran dan infrastruktur nirawak terbesar di dunia. Perusahaan ini sedang menguji pengantaran menggunakan robot, membangun bandara kendaraan nirawak, dan meluncurkan truk otonom pertamanya
+
+
+\n\nJD.ID mulai beroperasi di Indonesia sejak Oktober 2015[20]. Pada awalnya, mereka fokus terhadap menyediakan pelanggan dengan produk elektronik dan gadgets yang sulit ditemukan, seperti iPad Pro dari Apple dan A2010 dari Lenovo yang baru launching pada akhir tahun 2015. Sejak itu mereka telah memperluaskan penawaran produk mereka dan memasukkan kategori seperti sepatu dan pakaian olah raga dan juga produk kecantikan dan kesehatan.
+
+\n\nAlamat situs JD.ID yang menggunakan country-code top-level domain Indonesia (.id) dipilih untuk melambangkan komitmen mereka untuk memberikan layanan yang lebih cepat dan aman.[21] Menurut laporan, nama domain tersebut memerlukan dana Rp. 500,000,000 (~US$ 38,000) untuk didapatkan"
+                android:textSize="7pt"
+                android:textAlignment="center"
+
+                >
+
+            </TextView>
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

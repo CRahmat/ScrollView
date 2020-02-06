@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".BukalapakHistory">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:src="@drawable/bukalapak_logo"
+        android:scaleType="fitCenter"
+        android:padding="20dp"
+        android:background="@drawable/custom_button"
+        >
+
+    </ImageView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="130dp"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <EditText
+                android:id="@+id/headerOfHistory"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="SEJARAH BUKALAPAK"
+                android:fontFamily="@font/agencyfb"
+                android:textAlignment="center"
+                android:background="#FFFFFF"
+                android:textStyle="bold"
+                android:paddingTop="10dp"
+                android:textSize="12pt"
+                >
+            </EditText>
+            <TextView
+                android:id="@+id/bodyOfHistory"
+                android:layout_below="@+id/headerOfHistory"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="20dp"
+                android:background="@drawable/custom_button"
+                android:text="Bukalapak didirikan pada tanggal 10 Januari 2010 oleh Achmad Zaky, Nugroho Herucahyono dan Fajrin Rasyid di sebuah rumah kos[4] semasa berkuliah di Institut Teknologi Bandung.[5] Momentum awal bagi kemajuan Bukalapak adalah ketika tren pengguna sepeda lipat melonjak pada tahun 2010. Pada saat itu, terdapat banyak komunitas yang menjual berbagai sepeda dan aksesorisnya dengan harga terjangkau sehingga meramaikan dan meningkatkan pertumbuhan pengguna di Bukalapak secara signifikan
+                \n\nSetelah berdiri kurang lebih satu tahun, Bukalapak mendapat penambahan modal dari Batavia Incubator[6][7] (perusahaan gabungan dari Rebright Partners yang dipimpin oleh Takeshi Ebihara, Japanese Incubator dan Corfina Group). Di tahun 2012, Bukalapak menerima tambahan investasi dari GREE Ventures yang dipimpin oleh Kuan Hsu. Pada bulan Maret 2014, Bukalapak mengumumkan investasi oleh Aucfan, IREP, 500 Startups, dan GREE Ventures yang merupakan bagian dari pendanaan Seri A.[8][9][10]. Pada Februari 2015, Bukalapak mengumumkan pendanaan Seri B dengan masuknya Grup Emtek yang memiliki stasiun televisi SCTV. Emtek masuk ke Bukalapak melalui anak perusahaannya yaitu PT. Kreatif Media Karya (KMK Online).[11][12] Sumber lain menyebut Emtek sebenarnya sudah bergabung sejak 2014.[13] Baik Bukalapak maupun Emtek tidak menyebutkan berapa dana investasi yang dikucurkan. Namun, dari laporan keuangan EMTEK tahun 2015, diketahui bahwa Bukalapak telah mendapatkan dana investasi dari Emtek hingga Rp439 miliar.[14]
+
+                \n\nPada Januari 2019, Bukalapak mengumumkan telah mendapat pendanaan dari Asia Growth Fund yang diprakarsai Mirae Asset dan Naver Corp. Meski menolak memberikan keterangan perihal jumlah dana yang diperoleh, namun Mirae Asset mengkonfirmasi nilainya mencapai US$ 50 juta atau sekitar Rp706 miliar.[15] Oktober 2019, Bukalapak mendapat dana dari Shinhan Financial Group Co Ltd dari Korea Selatan dengan nilai yang tidak disebutkan. Ini merupakan bagian dari pendanaan Seri F yang menggenjot valuasi Bukalapak hingga mencapai US$ 2,5 miliar atau sekitar Rp35 triliun.[16]Selain Shinhan GIB, Emtek dan sejumlah investor Bukalapak sebelumnya juga mengikuti pendanaan Seri F. Dalam laporan perusahaan Emtek yang tercatat di Bursa Efek Indonesia tanggal 27 Mei 2019, PT KMK Online memiliki saham 35,17% saham di Bukalapak.[17]"
+                android:textSize="7pt"
+                android:textAlignment="center"
+
+                >
+
+            </TextView>
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

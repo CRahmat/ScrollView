@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".ShopeeHistory">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:src="@drawable/shopee_logo"
+        android:scaleType="fitCenter"
+        android:padding="20dp"
+        android:background="@drawable/custom_button"
+        >
+
+    </ImageView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="130dp"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <EditText
+                android:id="@+id/headerOfHistory"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="SEJARAH SHOPEE"
+                android:fontFamily="@font/agencyfb"
+                android:textAlignment="center"
+                android:background="#FFFFFF"
+                android:textStyle="bold"
+                android:paddingTop="10dp"
+                android:textSize="12pt"
+                >
+            </EditText>
+            <TextView
+                android:id="@+id/bodyOfHistory"
+                android:layout_below="@+id/headerOfHistory"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="20dp"
+                android:background="@drawable/custom_button"
+                android:text="Pada tahun 2015, Shopee pertamakali diluncurkan di Singapura sebagai pasar mobile-sentris sosial pertama dimana pengguna dapat menjelajahi, berbelanja, dan menjual kapan saja.[5] Terintegrasi dengan dukungan logistik dan pembayaran yang bertujuan untuk membuat belanja online mudah dan aman bagi penjual dan pembeli.
+            \n\nSetelah itu Shopee yang berpusat di Singapura, melakukan ekspansi ke negara ASEAN lain dan membuka Shopee Indonesia, Shopee Malaysia, Shopee Thailand, Shopee Taiwan, Shopee Vietnam, Shopee Filipina, dan Shopee Brasil.
+            Shopee pertama kali dimulai sebagai pasar pelanggan untuk pelanggan (C2C) tetapi telah beralih ke model hibrid C2C dan Bisnis untuk Pelanggan (B2C) semenjak meluncurkan Shopee Mall yang merupakan platform toko daring untuk distribusi brand ternama.
+            \n\nShopee bermitra dengan lebih dari 70 penyedia layanan kurir di seluruh pasarnya untuk menyediakan dukungan logistik bagi penggunanya. Shopee berkolaborasi dengan berbagai jasa logistik lokal, serta penyedia jasa transportasi daring
+            Pada tahun 2017, platform ini mencatat 80 juta unduhan aplikasi dan lebih dari 180 juta produk aktif dari lebih dari empat juta wirausaha. Pada Q4 2017, melaporkan nilai perdagangan bruto (GMV) sebesar US $ 1,6 miliar, naik 206 persen dari tahun sebelumnya.
+            \n\nDi Malaysia, Shopee menjadi portal perdagangan elektronik ke-3 yang paling banyak dikunjungi di Q4 2017, menggantikan Lelong dan melampaui peringkat Lazada sebagai aplikasi terbaik di Google Play dan iOS App store.
+            Demikian pula di kalangan konsumen di Indonesia, survei yang dilakukan pada bulan Desember 2017 oleh TheAsianParent mengungkapkan bahwa “untuk ibu-ibu Indonesia, Shopee adalah platform belanja pilihan pertama (73%), diikuti oleh Tokopedia (54%), Lazada (51%) dan Instagram (50 %).
+            \n\nPerusahaan induk Shopee, Sea Group, mengajukan penawaran umum perdana di New York Stock Exchange (NYSE) pada bulan Oktober 2017 sebesar US $ 1 miliar. Tencent adalah pemegang saham utama Sea Group dengan pangsa 39,7% sementara Blue Dolphins Venture yang merrupakan sebuah organisasi yang dibentuk oleh pendiri Sea Group, Forrest Li memegang 15%. Forrest Li sendiri memiliki 20%, dan Chief Technology Officer, Gang Ye memegang 10%
+"
+                android:textSize="7pt"
+                android:textAlignment="center"
+
+                >
+
+            </TextView>
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>
